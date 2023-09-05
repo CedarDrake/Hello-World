@@ -11,7 +11,15 @@ public class HelloWorld
         String string1 = "I am a string";
         String string2 = string1;
         String string3 = "I am also a string";
-        boolean stringsEqual = (string1 == string3);
+        boolean stringsEqual = string1.equals(string3);
+        String[]  arraystring = {"Alpha","Bravo","Charlie","Delta","Echo"};
+        for (int i1 = 0; i1 < arraystring.length; i1++) {
+            System.out.println(arraystring[i1]);
+        }
+        System.out.println(" ");
+        for (String value : arraystring) {
+            System.out.println(value);
+        }
         System.out.println(string1);
         System.out.println(string2);
         System.out.println(string3);
