@@ -20,6 +20,13 @@ public class HelloWorld
         for (String value : arraystring) {
             System.out.println(value);
         }
+        for (int idx = 0; idx < arraystring.length; idx++) {
+            System.out.print(arraystring[idx]);
+            if (idx < arraystring.length-1){
+                System.out.print("-");
+            }
+        }
+        System.out.println(" ");
         System.out.println(string1);
         System.out.println(string2);
         System.out.println(string3);
